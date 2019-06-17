@@ -1,6 +1,10 @@
 version: "3"
 services:
+  backend:
+    build: ../docker-graphql-setup
   app:
+    depends_on:
+      - backend
     build: .
     ports:
       - "3000:3000"
