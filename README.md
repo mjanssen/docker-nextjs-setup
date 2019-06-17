@@ -9,4 +9,4 @@ Don't mind the errors, since it's using the Alpine image, to have the smallest i
 - `--build` creates image from scratch
 - `-d` deamon mode - docker container continues on the background
 
-Your next.js application will be build to src/.next
+Your next.js application will be build to src/build
