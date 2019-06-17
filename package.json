@@ -6,7 +6,7 @@
   "scripts": {
     "start": "next ./src",
     "build": "next build ./src",
-    "next:start": "next start ./src"
+    "next:start": "next start ./build"
   },
   "keywords": [],
   "author": "",

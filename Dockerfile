@@ -7,7 +7,7 @@ WORKDIR /opt/app
 
 COPY . .
 
-RUN npm i && npm run build
+RUN npm i && npm run build && rm -rf ./src
 
 EXPOSE 3000
 
